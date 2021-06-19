@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua;/ */
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-image: linear-gradient(to top,#8113e9,#087df1,#d2d6da); */
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(14, 75, 14, 0.3),rgba(17, 236, 72, 0.1)),url("ttt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background:black; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 12vh;
+    background: rgba(51, 50, 50, 0.2);
+    align-items: center;
+    text-transform: uppercase;
+}
+.animated{
+
+
+font-size: 20px;
+	color: rgb(112, 44, 90);
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+
+
+
+
+
+nav #logo{
+    width: 25%;
+    text-align: center;
+}
+.menu{
+    width: 40%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+    /* text-decoration: none; */
+    /* color: rgb(223, 14, 14); */
+}
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.menu a:nth-child(1){
+    color: aqua;
+}
+.menu a:nth-child(3){
+    color: aqua;
+}
+main{
+    /* width: 100%; */
+    /* height: 85vh; */
+    padding-right:700px;
+    padding-top:79px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    /* top:50px; */
+}
+h3{
+    font-size: 35px;    font-weight: 200;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    /* 1- top 2-bottom 2px-blur */
+}
+section h1{
+    font-size: 38px;
+
+    font-weight: 900;
+    text-shadow: 1px 2px 10px rgb(235, 226, 226);
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px rgb(243, 232, 232);
+
+
+}
+section a{
+    padding:10px 45px;
+    text-align: center;
+    font-size: 14x;
+    border: none;
+    color: #fff;
+/* background-image:linear-gradient(to right,#649bff,#0070fa,#649bff); */
+border-radius:10px;
+text-decoration: none;
+}
+section .learn{
+    /* background-color: rgb(161, 157, 182); */
+    background-image: linear-gradient(to right,#205edb,#d0d6db,#1e6bb8);
+    color: black;
+}
+section .signup{
+    /* background-color: rgb(32, 172, 125); */
+    background-image: linear-gradient(to right,#e4e6eb,#1a86df,#cfd7df);
+}
+
+
+.learn:hover{
+    /* background-color: rgb(32, 172, 125); */
+    background-image: linear-gradient(to right,#e61890,#d0d6db,#d1277c);
+}
+
+.signup:hover{
+    /* background-color: #fff; */
+   
+    background-image: linear-gradient(to right,#db209d,#dfe7ee,#b81e8a); color: black;
+
+}
+.change_content:after{
+    content:'';
+    animation: changetext 2s infinite linear;
+    color:rgb(80, 144, 163);
+
+
+}
+@keyframes changetext{
+    0%{content:"Vrindavan";}
+    20%{content:"Mathura";}
+    30%{content:"Mayapur";}
+     /* 40%{content:"Ajay";}
+    60%{content:"V";}
+    80%{content:"Vrindavan";}
+    100%{content:"Vrindavan";} */ 
+
+}
+
+
+p{
+    color:rgb(175, 157, 161);
+}
+
+
+
+
+
+
+
+
+
+
+
+
